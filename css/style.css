@@ -4,11 +4,51 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+}
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
 }
+
+.bg-main {
+    background-image: url(../images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    /* height: 300px; */
+}
+
+.card-one {
+    width: 400px;
+    height: 200px;
+    background-color: antiquewhite;
+    position: absolute;
+    /* top: 260px;
+    left: 150px; */
+    top: 21vh;
+    left: 10vw;
+}
+
+.card-two {
+    background-image: url(../images/bg-card-back.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    width: 400px;
+    height: 200px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 48vh;
+    left: 15vw;
+}
+
 
 .attribution a {
     color: hsl(228, 45%, 44%);
