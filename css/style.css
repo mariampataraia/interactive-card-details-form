@@ -27,12 +27,15 @@ body {
 }
 
 .card-one {
-    width: 400px;
-    height: 200px;
+    background-image: url(../images/bg-card-front.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 447px;
+    height: 235px;
     background-color: antiquewhite;
     position: absolute;
-    /* top: 260px;
-    left: 150px; */
+    border-radius: 7px;
     top: 21vh;
     left: 10vw;
 }
@@ -40,16 +43,21 @@ body {
 .card-two {
     background-image: url(../images/bg-card-back.png);
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    width: 400px;
-    height: 200px;
+    background-size: cover;
+    background-position: center;
+    width: 447px;
+    height: 235px;
     background-color: antiquewhite;
     position: absolute;
     top: 48vh;
     left: 15vw;
+    border-radius: 7px;
 }
-
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.form {
+    width: 300px;
 }
