@@ -15,39 +15,63 @@
 <body>
 
   <div class="row h-100 m-0 p-0">
-    <div class="col-5 bg-main ">gvfv</div>
+    <div class="col-5 bg-main "></div>
     <div class="col-7 d-flex justify-content-center align-items-center">
 
-      <form action="" class="form">
-        <div class="row my-3">
-          <label for="name" class="form-label m-0 p-0">CARDHOLDER NAME</label>
-          <input type="text" class="form-control" id="name">
+      <form action="" class="form m-0 p-0 ">
+        <div class="row my-3 w-100  m-0 p-0 ">
+          <label for="name" class="form-label p-0 ">CARDHOLDER NAME</label>
+          <input type="text" class="form-control" id="name" placeholder="e.g JANE APPLESEED">
         </div>
-        <div class="row my-3">
-          <label for="cardNumber" class="form-label m-0 p-0">CARD NUMBER</label>
-          <input type="text" class="form-control" id="cardNumber">
+        <div class="row my-3  m-0 p-0">
+          <label for="cardNumber" class="form-label  p-0">CARD NUMBER</label>
+          <input type="text" class="form-control" id="cardNumber" maxlength="19" placeholder="e.g. 1234 5678 9123 4567">
         </div>
-        <div class="row">
+        <div class="row  m-0 p-0">
           <div class="col-3 m-0 p-0 pe-1">
-            <label for="cardNumber" class="form-label">EXP.DATE</label>
-            <input type="text" class="form-control" id="cardNumber">
+            <label for="monthNumber" class="form-label">EXP.DATE</label>
+            <input type="text" class="form-control" id="monthNumber" placeholder="MM" maxlength="2">
           </div>
           <div class="col-3 m-0 p-0 px-1">
-            <label for="cardNumber" class="form-label">(MM/YY)</label>
-            <input type="text" class="form-control" id="cardNumber">
+            <label for="yearNumber" class="form-label">(MM/YY)</label>
+            <input type="text" class="form-control" id="yearNumber" placeholder="YY" maxlength="2">
           </div>
           <div class="col-6 m-0 p-0 ps-2">
-            <label for="cardNumber" class="form-label">CVC</label>
-            <input type="text" class="form-control" id="cardNumber">
+            <label for="inputCvc" class="form-label">CVC</label>
+            <input type="text" class="form-control" id="inputCvc" placeholder="e.g. 123" maxlength="3">
           </div>
         </div>
-        <button class="btn bg-primary btn-block my-4">Confirm</button>
+        <div class="d-grid my-5">
+          <button class="m-0 btn btn-lg">Confirm</button>
+        </div>
+
+
       </form>
     </div>
   </div>
 
-  <div class="card-one"></div>
-  <div class="card-two"></div>
+  <div class="card-one p-4">
+    <div class="d-flex align-items-center">
+      <div class="circle"></div>
+      <div class="circle-outline mx-2"></div>
+    </div>
+
+    <div id="displayDiv" placeholder="23232323" class="text-white">0000 0000 0000 0000</div>
+    <div class="text-white d-flex justify-content-between mt-3">
+      <div class="name" id="displayName">
+        JANE APPLESEED
+      </div>
+      <div class="date">
+        <span id="displayMonth">00</span>/<span id="displayYear">00</span>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <div class="card-two">
+    <div class="text-white cvc" id="displayCvc">000</div>
+  </div>
 
 
 
@@ -83,7 +107,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/mariampataraia" target="_blank">Mariam Pataraia</a>.
   </div>
 
 

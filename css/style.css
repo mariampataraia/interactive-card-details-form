@@ -61,3 +61,39 @@ body {
 .form {
     width: 300px;
 }
+
+.btn {
+    background-color: blueviolet;
+}
+
+.circle {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.circle-outline {
+    border: 2px solid white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+#displayDiv {
+    margin-top: 54px;
+    font-size: 1.9rem;
+    letter-spacing: 0.3rem;
+}
+
+
+
+input::placeholder {
+    color: red;
+}
+
+.cvc {
+    margin-top: 102px;
+    margin-left: 359px;
+    letter-spacing: 0.1rem;
+}
