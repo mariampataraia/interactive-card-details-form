@@ -22,8 +22,9 @@ body {
     background-image: url(../images/bg-main-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 1200px;
     /* height: 300px; */
+    width: 644px;
 }
 
 .card-one {
@@ -31,13 +32,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 447px;
-    height: 235px;
+    width: 597px;
+    height: 327px;
     background-color: antiquewhite;
     position: absolute;
     border-radius: 7px;
-    top: 21vh;
-    left: 10vw;
+    /* top: 21vh; */
+    top: 249px;
+    left: 218px;
+
 }
 
 .card-two {
@@ -45,12 +48,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 447px;
-    height: 235px;
+    width: 597px;
+    height: 327px;
     background-color: antiquewhite;
     position: absolute;
-    top: 48vh;
-    left: 15vw;
+    top: 625px;
+    left: 344px;
     border-radius: 7px;
 }
 
