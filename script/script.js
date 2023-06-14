@@ -55,3 +55,6 @@ inputCvc.addEventListener('input', () => {
 })
 
 
+var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+console.log(width);
+alert(width);
